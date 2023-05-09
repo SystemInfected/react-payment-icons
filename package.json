@@ -1,6 +1,6 @@
 {
 	"name": "@systeminfected/react-payment-icons",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "React component Payment / Ecommerce icons",
 	"main": "dist/index.js",
 	"scripts": {
