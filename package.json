@@ -2,7 +2,7 @@
 	"name": "@systeminfected/react-payment-icons",
 	"version": "0.1.0",
 	"description": "React component Payment / Ecommerce icons",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"dev": "npm run storybook",
 		"build": "rimraf dist && tsup src/index.ts --dts",
