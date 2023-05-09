@@ -1,8 +1,10 @@
 import React from 'react'
+import { TSVGIcon } from '../types/Icon'
 
-const AmericanExpress = () => {
+const AmericanExpress = ({ style }: TSVGIcon) => {
 	return (
 		<svg
+			style={style}
 			xmlns='http://www.w3.org/2000/svg'
 			width='120'
 			height='80'

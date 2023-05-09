@@ -12,5 +12,8 @@ export interface IconProps {
 	icon: IconName
 	size?: TSize | number
 	style?: React.CSSProperties
-	alt?: string
+}
+
+export interface TSVGIcon {
+	style: React.CSSProperties
 }

@@ -14,28 +14,28 @@ type Story = StoryObj<typeof meta>
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Default: Story = {
 	args: {
-		icon: 'VISA',
+		icon: 'AMERICAN_EXPRESS',
 	},
 }
 
 export const SizePixel: Story = {
 	args: {
 		icon: 'MASTERCARD',
-		//size: '100px',
+		size: '100px',
 	},
 }
 
 export const SizePercent: Story = {
 	args: {
 		icon: 'SHOPIFY_PAY',
-		//size: '10rem',
+		size: '10rem',
 	},
 }
 
 export const Styled: Story = {
 	args: {
 		icon: 'APPLE_PAY',
-		/* size: 50,
-		style: { opacity: '0.5' }, */
+		size: 50,
+		style: { opacity: '0.5' },
 	},
 }

@@ -4,6 +4,21 @@ import * as Icons from '../icons'
 
 const styles: React.CSSProperties = {
 	boxSizing: 'border-box',
+	width: 'fitContent',
+}
+
+const getIcon = (icon: IconName, size: string = '24px') => {
+	const svgStyles: React.CSSProperties = {
+		height: size,
+		width: 'auto',
+	}
+	switch (icon) {
+		case 'AMERICAN_EXPRESS':
+			return <Icons.AmericanExpress style={svgStyles} />
+
+		default:
+			return <Icons.Visa style={svgStyles} />
+	}
 }
 
 /**
@@ -11,18 +26,16 @@ const styles: React.CSSProperties = {
  * @param {IconName} icon name of the icon
  * @param {string | number} [size="24"] optional the height in pixels or percentage
  * @param {React.CSSPropertie} [style] optional css inline style properties
- * @param {string} [alt] optional alt property of the icon (for accessibility purposes)
  */
-const Icon = ({ icon, size, style, alt }: IconProps) => {
+const Icon = ({ icon, size, style }: IconProps) => {
 	const parsedSize = typeof size === 'number' ? `${size}px` : size
 
 	return (
 		<div
-			style={{ ...style, ...styles }}
-			//height={parsedSize}
-			//alt={alt ? alt : icon}
+			style={{ ...style, ...styles, height: parsedSize }}
+			//
 		>
-			<Icons.AmericanExpress />
+			{getIcon(icon, parsedSize)}
 		</div>
 	)
 }
@@ -30,7 +43,6 @@ const Icon = ({ icon, size, style, alt }: IconProps) => {
 Icon.defaultProps = {
 	size: 24,
 	style: {},
-	alt: '',
 }
 
 export { Icon, IconProps }
