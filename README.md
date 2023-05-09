@@ -27,8 +27,8 @@ A collection of payment method logos. The logos are free to use for commercial p
 | ![](assets/card-icons/card_mastercard.svg)       | Mastercard       |
 | ![](assets/card-icons/card_visa.svg)             | Visa             |
 | ![](assets/card-icons/card_american-express.svg) | American Express |
-| ![](assets/card-icons/card_google_pay.svg)       | Google Pay       |
-| ![](assets/card-icons/card_apple_pay.svg)        | Apple Pay        |
+| ![](assets/card-icons/card_google-pay.svg)       | Google Pay       |
+| ![](assets/card-icons/card_apple-pay.svg)        | Apple Pay        |
 | ![](assets/card-icons/card_shopify_pay.svg)      | Shopify Pay      |
 
 ## Payment methods still to be added
