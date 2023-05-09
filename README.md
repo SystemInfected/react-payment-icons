@@ -11,7 +11,7 @@ Example
 ```
 import { Icon, IconName } from 'react-payment-method-icons'
 
-<Icon icon={IconName.MASTERCARD}/>
+<Icon icon='MASTERCARD'/>
 ```
 
 ## Credit
