@@ -33,7 +33,7 @@ const getIcon = (icon: IconName, size: string = '24px') => {
 /**
  * Return an SVG component with the payment method icon
  * @param {IconName} icon name of the icon
- * @param {string | number} [size="24"] optional the height in pixels or percentage
+ * @param {string | number} [size="24"] optional height value in pixels, ems or rems
  * @param {React.CSSPropertie} [style] optional css inline style properties
  */
 const Icon = ({ icon, size, style }: IconProps) => {
