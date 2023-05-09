@@ -1,2 +1,6 @@
 export { default as AmericanExpress } from './AmericanExpress'
 export { default as Visa } from './Visa'
+export { default as ApplePay } from './ApplePay'
+export { default as GooglePay } from './GooglePay'
+export { default as Mastercard } from './Mastercard'
+export { default as ShopifyPay } from './ShopifyPay'

@@ -15,7 +15,16 @@ const getIcon = (icon: IconName, size: string = '24px') => {
 	switch (icon) {
 		case 'AMERICAN_EXPRESS':
 			return <Icons.AmericanExpress style={svgStyles} />
-
+		case 'APPLE_PAY':
+			return <Icons.ApplePay style={svgStyles} />
+		case 'GOOGLE_PAY':
+			return <Icons.GooglePay style={svgStyles} />
+		case 'MASTERCARD':
+			return <Icons.Mastercard style={svgStyles} />
+		case 'SHOPIFY_PAY':
+			return <Icons.ShopifyPay style={svgStyles} />
+		case 'VISA':
+			return <Icons.Visa style={svgStyles} />
 		default:
 			return <Icons.Visa style={svgStyles} />
 	}
