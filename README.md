@@ -20,7 +20,20 @@ Logos forked from https://github.com/payrexx/payment-logos
 
 A collection of payment method logos. The logos are free to use for commercial purposes.
 
-## Credit Cards
+## Payment methods so far
+
+| Image                                            | Brand            |
+| ------------------------------------------------ | ---------------- |
+| ![](assets/card-icons/card_mastercard.svg)       | Mastercard       |
+| ![](assets/card-icons/card_visa.svg)             | Visa             |
+| ![](assets/card-icons/card_american-express.svg) | American Express |
+| ![](assets/card-icons/card_google_pay.svg)       | Google Pay       |
+| ![](assets/card-icons/card_apple_pay.svg)        | Apple Pay        |
+| ![](assets/card-icons/card_shopify_pay.svg)      | Shopify Pay      |
+
+## Payment methods still to be added
+
+### Credit cards
 
 | Image                                            | Brand            |
 | ------------------------------------------------ | ---------------- |
@@ -34,7 +47,7 @@ A collection of payment method logos. The logos are free to use for commercial p
 
 There are additional credit card logos in the repository.
 
-## Wallets
+### Wallets
 
 | Image                                       | Brand       |
 | ------------------------------------------- | ----------- |
@@ -45,19 +58,6 @@ There are additional credit card logos in the repository.
 | ![](assets/card-icons/card_alipay.svg)      | Ali Pay     |
 | ![](assets/card-icons/card_wechat-pay.svg)  | WeChat Pay  |
 
-## Swiss Payment Methods
-
-| Image                                                | Brand                 |
-| ---------------------------------------------------- | --------------------- |
-| ![](assets/card-icons/card_twint.svg)                | TWINT                 |
-| ![](assets/card-icons/card_postfinance_card.svg)     | Postfinance Card      |
-| ![](assets/card-icons/card_postfinance_efinance.svg) | Postfinance E-Finance |
-| ![](assets/card-icons/card_gecko-card.svg)           | Swiss Gecko Card      |
-| ![](assets/card-icons/card_swisscom-pay.svg)         | Swisscom Pay          |
-| ![](assets/card-icons/card_bob-invoice.svg)          | Bob Invoice           |
-| ![](assets/card-icons/card_wirpay.svg)               | WIR                   |
-| ![](assets/card-icons/card_reka.svg)                 | REKA                  |
-
-## Other Payment Methods
+### Other Payment Methods
 
 Over 120 additional payment method logos.
