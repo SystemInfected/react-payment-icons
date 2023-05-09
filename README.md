@@ -9,7 +9,7 @@ npm i @systeminfected/react-payment-icons
 Example
 
 ```
-import { Icon, IconName } from 'react-payment-method-icons'
+import { Icon } from 'react-payment-method-icons'
 
 <Icon icon='MASTERCARD'/>
 ```
