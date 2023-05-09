@@ -8,9 +8,9 @@
 		"build": "rimraf dist && tsup src/index.ts --dts",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
-		"push": "npm run build && npm version patch && npm publish",
-		"push minor": "npm run build && npm version minor && npm publish",
-		"push major": "npm run build && npm version major && npm publish",
+		"push": "npm run build && npm version patch && npm publish --access public",
+		"push minor": "npm run build && npm version minor && npm publish --access public",
+		"push major": "npm run build && npm version major && npm publish --access public",
 		"login": "login"
 	},
 	"repository": {
