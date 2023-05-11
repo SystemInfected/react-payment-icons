@@ -1,5 +1,20 @@
 # React Payment icons
 
+A react component library that easily integrate with the Shopify GrapQL API to display available payment methods. The naming convention for the icons are matched with the response data from `paymentSettings`
+
+Example query:
+
+```
+query {
+    shop {
+      paymentSettings {
+        acceptedCardBrands
+        supportedDigitalWallets
+      }
+    }
+  }
+```
+
 ## Usage
 
 ```
@@ -22,7 +37,7 @@ A collection of payment method logos. The logos are free to use for commercial p
 
 ## Payment methods so far
 
-| Image                                                                  | Brand            | Icon name        |
+| Image                                                                  | Brand            | Shopify API name |
 | ---------------------------------------------------------------------- | ---------------- | ---------------- |
 | <img src="assets/card-icons/card_mastercard.svg" width="120px"/>       | Mastercard       | MASTERCARD       |
 | <img src="assets/card-icons/card_visa.svg" width="120px"/>             | Visa             | VISA             |
