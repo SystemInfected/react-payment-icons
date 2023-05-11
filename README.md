@@ -22,14 +22,15 @@ A collection of payment method logos. The logos are free to use for commercial p
 
 ## Payment methods so far
 
-| Image                                                                  | Brand            |
-| ---------------------------------------------------------------------- | ---------------- |
-| <img src="assets/card-icons/card_mastercard.svg" width="120px"/>       | Mastercard       |
-| <img src="assets/card-icons/card_visa.svg" width="120px"/>             | Visa             |
-| <img src="assets/card-icons/card_american-express.svg" width="120px"/> | American Express |
-| <img src="assets/card-icons/card_google-pay.svg" width="120px"/>       | Google Pay       |
-| <img src="assets/card-icons/card_apple-pay.svg" width="120px"/>        | Apple Pay        |
-| <img src="assets/card-icons/card_shopify_pay.svg" width="120px"/>      | Shopify Pay      |
+| Image                                                                  | Brand            | Icon name        |
+| ---------------------------------------------------------------------- | ---------------- | ---------------- |
+| <img src="assets/card-icons/card_mastercard.svg" width="120px"/>       | Mastercard       | MASTERCARD       |
+| <img src="assets/card-icons/card_visa.svg" width="120px"/>             | Visa             | VISA             |
+| <img src="assets/card-icons/card_american-express.svg" width="120px"/> | American Express | AMERICAN_EXPRESS |
+| <img src="assets/card-icons/card_google-pay.svg" width="120px"/>       | Google Pay       | GOOGLE_PAY       |
+| <img src="assets/card-icons/card_apple-pay.svg" width="120px"/>        | Apple Pay        | APPLE_PAY        |
+| <img src="assets/card-icons/card_shopify_pay.svg" width="120px"/>      | Shopify Pay      | SHOPIFY_PAY      |
+| <img src="assets/card-icons/card_klarna.svg" width="120px"/>           | Klarna           | KLARNA           |
 
 ## Payment methods still to be added
 

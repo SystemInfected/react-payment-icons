@@ -2,6 +2,7 @@ export type IconName =
 	| 'AMERICAN_EXPRESS'
 	| 'APPLE_PAY'
 	| 'GOOGLE_PAY'
+	| 'KLARNA'
 	| 'MASTERCARD'
 	| 'SHOPIFY_PAY'
 	| 'VISA'

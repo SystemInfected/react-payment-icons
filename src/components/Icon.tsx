@@ -19,6 +19,8 @@ const getIcon = (icon: IconName, size: string = '24px') => {
 			return <Icons.ApplePay style={svgStyles} />
 		case 'GOOGLE_PAY':
 			return <Icons.GooglePay style={svgStyles} />
+		case 'KLARNA':
+			return <Icons.Klarna style={svgStyles} />
 		case 'MASTERCARD':
 			return <Icons.Mastercard style={svgStyles} />
 		case 'SHOPIFY_PAY':
