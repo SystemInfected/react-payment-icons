@@ -1,4 +1,4 @@
-# React Payment icons
+# React Payment Icons
 
 A react component library that easily integrate with the Shopify GrapQL API to display available payment methods. The naming convention for the icons are matched with the response data from `paymentSettings`.
 
